@@ -1,0 +1,118 @@
+.header-main .navbar ul{
+  display: none;
+}
+.header-main .navbar{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 20px;
+}
+.showcase{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3,1fr);
+}
+.showcase .showcase1{
+  height: auto;
+  padding: 0;
+  border-right: 0;
+  margin: 0 auto;
+}
+.showcase .showcase2 {
+  border-top: 2px solid gray;
+}
+.showcase{
+  margin-top: 3rem;
+}
+.showcase .showcase1 {
+ grid-row: 1/span 1;
+}
+.section1-div p{
+  padding: 5px;
+}
+.section2{
+  display: grid;
+  grid-template-columns:1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+}
+.section2 .sectio2-left-div1{
+  border-right: 0;
+}
+.section2 .sectio2-left-div1 .btn,
+.section2 .sectio2-left-div1 p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.section2 .sectio2-left-div2{
+  border-right: 0;
+  margin-top: 10px;
+}
+.section2 .sectio2-left-div2 p,
+.section2 .sectio2-right-div2 p{
+  margin-top: 0;
+}
+.section2 .sectio2-right-div2{
+  margin-top: 20px;
+}
+.section2 .sectio2-right-div1{
+  margin-bottom: 10px;
+}
+.section2 .sectio2-right-div1 p{
+  margin-top: 0;
+}
+.section2 .sectio2-right-div1 h3,
+.section2 .sectio2-right-div1 p{
+  padding: 0px;
+}
+.section2 .sectio2-right-div2 h3,
+.section2 .sectio2-right-div2 p{
+  padding: 0px;
+}
+.section3{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+}
+.section3 .section3-left h3,
+.section3 .section3-left h4,
+.section3 .section3-left a{
+  margin: 0rem 0;
+}
+.section3 .section3-left{
+  display: grid;
+  grid-template-rows: 75px 130px 55px;
+  padding: 15px;
+}
+.section3 .section3-left a{
+  padding: 0px 0px 5px 97px;
+  bottom: 0;
+  margin-top: 10px;
+}
+.section4{
+  text-align: center;
+}
+.section4 textarea{
+  margin: 0;
+  width: 400px;
+}
+.section5 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 0.5fr;
+}
+.section5 .section5-left-div{
+  text-align: center;
+}
+.section5 .section5-right-div{
+  display: grid;
+  grid-template-rows: 70px 70px 70px;
+  text-align: center;
+}
+.section5 .section5-right-div .north {
+  border-bottom: none;
+  margin: 0 auto;
+}
+
+
+
